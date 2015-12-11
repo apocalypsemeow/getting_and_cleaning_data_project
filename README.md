@@ -2,3 +2,5 @@
 Coursera Project Repository for Getting and Cleaning Data
 
 Testing
+
+Testing in local repository
