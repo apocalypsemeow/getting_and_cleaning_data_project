@@ -28,5 +28,5 @@ human-readable, lowercase activity names, and the subject ids are replaced with
 human-readable names 'subject01', 'subject02',etc.
 
 Finally, the new data set is averaged over the repeated subject.id and activity
-pairs, which gets outputted to a csv file containing the new, tidy data set. All
+pairs, which gets outputted to a txt file containing the new, tidy data set. All
 variables are then removed from the R workspace.
