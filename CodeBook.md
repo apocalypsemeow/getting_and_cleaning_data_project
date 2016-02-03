@@ -46,8 +46,8 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
     tBodyGyroMean
     tBodyGyroJerkMean
 
-There were 30 subjects observed, under 'subject.id', labeled as 'subject1',
-'subject2', etc., performing various activities. The mean and standard deviation
+There were 30 subjects observed, under 'subject.id', labeled as 'subject01',
+'subject02', etc., performing various activities. The mean and standard deviation
 of the observed signals were averaged over each activity to summarize the data.
 The various activities from which the signals were observed for each subject can
 be found in the 'activity' column.
