@@ -10,7 +10,7 @@
 
 library(dplyr)
 
-print("Tidying up the UCI HAR Dataset. Will output result to tidy_har_data.txt")
+print("Tidying up UCI HAR Dataset. Will output result to tidy_har_data.txt")
 
 # Loading the test data into three different data.frame variables
 subject_test <- read.table("test/subject_test.txt")
@@ -66,7 +66,7 @@ colnames(mean_std_set) <- names
 tidy_har_data <- mean_std_set %>% group_by(subject.id, activity) %>%
     summarize_each(funs(mean))
 
-# Writing to csv file
+# Writing to txt file
 write.table(tidy_har_data, file= "tidy_har_data.txt", row.name=FALSE)
 
 # Removing intermediate variables
